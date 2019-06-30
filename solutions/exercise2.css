@@ -1,0 +1,25 @@
+      body{ background: #f0f8ff;
+      }
+      div { width: 75%; 
+      	min-width: 500px;
+     	border: 1px solid; color: #333333;
+      	margin-top: 1em; margin-bottom: 1em;
+      	padding: 0.5em;
+      	background: white;
+            box-shadow: 3px 6px;
+            border-radius: 4px;
+
+      }
+   #div2{
+      border-style: dotted; border-color: red; color: red; 
+   }
+   #p1{
+      font-style: bold; padding-left: 0.5em; padding-right: 0.5em; 
+      background: #fdfd96;
+       font-weight: bold
+   } 
+   #p2{
+      font-style: bold; padding-left: 0.5em; padding-right: 0.5em; 
+      background: #fdfd96; font-weight: bold;
+   }
+ 
