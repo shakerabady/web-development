@@ -1,0 +1,38 @@
+<!doctype html>
+<title>Example</title>
+<style>
+.grid { 
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  align-items: start;
+  /*width: 100;*/
+  }
+  .div1{
+        background-color: orange;
+        grid-column: span 3;
+        grid-row: 1;
+        padding:10px;
+      }
+  .div2{
+        background: orange;
+        grid-column: span 1;
+        grid-row-start:2/4;
+        
+      }
+  .div3{
+    background-color: yellow;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+  }
+
+  </style>
+
+  <div class="grid">
+    <div class="div1">Header</div>
+    <div class="div2">Nav</div>
+    <div class="div3">article</div>
+    <div class="div4">ads</div>
+    <div class="div5">Footer</div>
+  </div>
