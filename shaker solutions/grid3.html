@@ -4,9 +4,10 @@
 .grid { 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   grid-gap: 10px;
   align-items: start;
-  /*width: 100;*/
+  height: 100vh;
   }
   .div1{
         background-color: orange;
@@ -17,7 +18,7 @@
   .div2{
         background: orange;
         grid-column: span 1;
-        grid-row-start:2/4;
+        grid-row:2/5;
         
       }
   .div3{
